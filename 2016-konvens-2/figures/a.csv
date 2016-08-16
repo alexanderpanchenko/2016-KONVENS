@@ -1,0 +1,26 @@
+		P	R	F1
+Single models	Clusters	0.95	0.68	0.80
+	Depwords	0.95	0.95	0.95
+	Deptarget	0.65	0.37	0.47
+	Depall	0.90	0.90	0.90
+	Trigramtarget	0.46	0.08	0.14
+	Trigramall	0.68	0.65	0.67
+				
+Feature comb.	DepstargetCoocsClustersTrigramstarget	0.95	0.95	0.95
+	DepsallCoocsClustersTrigramsall	0.92	0.92	0.92
+	DepstargetCoocsClusters	0.95	0.95	0.95
+	DepsallCoocsClusters	0.92	0.92	0.92
+				
+				
+Meta comb.	Clusters+Depstarget+Depwords+Trigramstarget: majority	0.94	0.78	0.85
+	Clusters+Depstarget+Depwords+Trigramstarget: ranks	0.94	0.53	0.68
+	Clusters+Depstarget+Depwords+Trigramstarget: sum	0.94	0.83	0.89
+	Clusters+Depsall+Depwords+Trigramsall: majority	0.90	0.88	0.89
+	Clusters+Depsall+Depwords+Trigramsall: ranks	0.93	0.63	0.75
+	Clusters+Depsall+Depwords+Trigramsall: sum	0.92	0.92	0.92
+	Clusters+Depstarget+Depwords: majority	0.91	0.80	0.85
+	Clusters+Depstarget+Depwords: ranks	0.90	0.47	0.62
+	Clusters+Depstarget+Depwords: sum	0.94	0.83	0.89
+	Clusters+Depsall+Depwords: majority	0.93	0.93	0.93
+	Clusters+Depsall+Depwords: ranks	1.00	0.72	0.84
+	Clusters+Depsall+Depwords: sum	0.90	0.90	0.90
